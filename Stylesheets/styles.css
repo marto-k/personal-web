@@ -6,8 +6,7 @@ html,body{
 }
 
  .vid source{
-    position:sticky;
-  
+   position:absolute;
    list-style-position:inside;
      background-clip: content-box;
      background:cover; 
@@ -15,33 +14,49 @@ html,body{
 }
 .vid{
   background:cover; 
- 
   width:100%;
 }
 #nav nav a{
-    background-color: beige;
+  overflow:auto;
+    background-color: ;
     opacity: inherit;
     text-decoration: none;
     list-style-position: outside;
-
 }
-#nav{
-    background: fill;
-    display:inline;
-    background-color: aqua;
+
+#nav nav ul li a  {
+    transform: skewX(-10deg);
+  }
+#nav li{
+  transition-property:transform;
+    vertical-align:left 25px;
+    transform: skewX(20deg);
+    background: cover;
     list-style-type: none;
-    list-style-position: outside;
-    position: relative;
-    text-align: center;
-    top: 30px;
+    list-style-position: outside none none;
+    list-style-type:none;
+    text-align: left ;
+    margin:30px auto;
+    overflow:absolute;
 }
 #nav a{
     padding: 10px 10px;
     background-color: aqua;
-    color:blue;
-}
+    color:beige;
+    transform: skewX(-10deg);
+  }
 #nav a:hover{
-    background-color: aqua;
-    color: blue;
+    background-color:white ;
+    color: black;
 }
 
+#trapezeum{
+
+position:absolute;
+padding-left:40px;
+border-top: 400px solid red;
+  border-left: 120px solid transparent;
+  height: 100px;
+  width: 80px;
+   vertical-align:20px;
+}

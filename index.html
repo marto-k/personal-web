@@ -3,27 +3,33 @@
     <head>
         <meta content="utf-8">
         <link rel="shortcut icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="Stylesheets/nav.css">
         <link rel="stylesheet" href="Stylesheets/styles.css">
         <title>CARS.globe</title>
     </head>
     <body>
         <!--BACKGROUND-->
         <!--HOME PAGE-->
-         <div id="nav">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Car brands</a>
-            <a href="#">Contacts</a>
-        </nav>
-        </div>  
-        <div id="background">
-          
-        <video autoplay="autoplay" loop="" class="vid" poster="assets/backgrounds/vlcsnap-2016-01-20-11h37m40s22.png" id="video">    
+        <div id="trapezeum"></div>
+        <div id="nav" style="background:cover;position:absolute;z-index:0;">
+          <nav>
+          <ul>
+           <div id="home"><li><a href="index.html"><span>Home</span></a></li></div>
+            <div id="about"><li><a href="#"><span>About</span></a></li> </div>
+           <div id="cars"><li><a href="#"><span>Car Types</span></a></li></div>
+           <div id="Contacts"><li><a href="#"><span>Contacts</span></a></li></div>
+         </ul> 
+           </nav>
+        </div>
+        
+        
+        <div id="background" style="background:cover; width:100%; height:100%;">
+        <video autoplay="autoplay" loop="" class="vid" poster="assets/backgrounds/vlcsnap-2016-01-20-11h37m40s22.png" id="video" style="background:cover; width:100%; height:100%;">    
              
-           <source src="assets/backgrounds/Highlights from 2012 New York International Auto Show - Part 1 - Concept Cars.mp4" type="video/webm">
+           <source src="assets/backgrounds/Highlights from 2012 New York International Auto Show - Part 1 - Concept Cars.mp4" type="video/webm" style="background:cover; width:100%; height:100%;">
         </video>
-           
-            </div>
+           </div>
+
+       
     </body>
 </html>

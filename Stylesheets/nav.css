@@ -1,0 +1,21 @@
+/*Css file*/ 
+html,body{
+  margin:0 auto;
+  padding:0;
+}
+#home{
+  padding-right:80px;
+  text-align:left;
+}
+#about{
+  padding-left:20px;
+  text-align:left;
+}
+#cars{
+  padding-right:20px;
+  text-align:left;
+}
+#contacts{
+  padding-left:60px;
+  text-align:left;
+}
