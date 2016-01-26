@@ -1,1 +1,48 @@
 /*Css file*/ 
+.css-slideshow{
+   position: relative;
+   height: 270px;
+   width:100%;
+   background-size:auto ;
+   margin:0 auto;
+}
+.css-slideshow figure{
+   width:100%;
+   position: absolute;
+   margin:0 auto;
+   text-align:center;
+}
+.css-slideshow  img{
+  margin:auto;
+  width:auto;
+  height:610px;
+position:relative;
+margin:0 auto;
+  
+}
+
+.css-slideshow figure{
+   opacity:0;
+   margin:0 auto;
+}
+
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   1% {
+      opacity:0;
+   }
+   
+   100% {
+      opacity:1;
+   }
+}
