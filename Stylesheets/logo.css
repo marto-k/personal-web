@@ -1,13 +1,13 @@
 /*Css file*/ 
 .css-slideshow{
    position: relative;
-   height: 270px;
-   width:100%;
+   height: 22px;
+   width:20px;
    background-size:auto ;
    margin:0 auto;
 }
 .css-slideshow figure{
-   width:100%;
+   width:20px;
    position: absolute;
    margin:0 auto;
    text-align:center;
@@ -15,7 +15,7 @@
 .css-slideshow  img{
   margin:auto;
   width:auto;
-  height:610px;
+  height:22px;
 position:relative;
 margin:0 auto;
   
