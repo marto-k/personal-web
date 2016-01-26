@@ -3,7 +3,9 @@ html,body{
     padding:0;
     margin: 0 auto;
 box-sizing: content-box;
-  
+  background-image:url("../background.jpg");
+  background-size:100% ;
+overflow-y:absolute;
 }
 
 #nav nav a{
@@ -32,8 +34,8 @@ box-sizing: content-box;
 }
 #nav li a{
     padding: 10px 10px;
-    background-color: aqua;
-    color:beige;
+    background-color: beige;
+    color:black;
    
   }
 #nav a:hover{
@@ -47,11 +49,12 @@ box-sizing: content-box;
   box-sizing:border-box;
 }
 #trapezeum{
-float:right;
+float:right;  position:absolute;
+
 position:absolute;
 padding-left:170px;
-border-top: 760px solid red;
-border-bottom: 62px solid red;
+border-top: 760px solid maroon;
+border-bottom: 62px solid purple;
 box-sizing: content-box;
 
   border-left: 140px solid transparent;
