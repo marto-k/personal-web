@@ -1,21 +1,29 @@
 /*Css file*/ 
 html,body{
-  margin:0 auto;
+  margin: auto;
   padding:0;
+box-sizing: content-box;
 }
 #home{
   padding-right:80px;
   text-align:left;
+    
 }
 #about{
-  padding-left:20px;
   text-align:left;
 }
 #cars{
-  padding-right:20px;
+  padding-right:30px;
   text-align:left;
 }
 #contacts{
-  padding-left:60px;
+
+  padding-left:10px;
   text-align:left;
+}
+#all-nav{
+width:px;
+box-sizing: content-box;
+margin:auto;
+  float:right;
 }

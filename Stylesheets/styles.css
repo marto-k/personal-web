@@ -2,33 +2,25 @@
 html,body{
     padding:0;
     margin: 0 auto;
-    
+box-sizing: content-box;
+  
 }
 
- .vid source{
-   position:absolute;
-   list-style-position:inside;
-     background-clip: content-box;
-     background:cover; 
-     width:100%;
-}
-.vid{
-  background:cover; 
-  width:100%;
-}
 #nav nav a{
   overflow:auto;
-    background-color: ;
     opacity: inherit;
     text-decoration: none;
     list-style-position: outside;
 }
-
+#nav li{
+    transform: skewX(11deg);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
 
 #nav li{
   transition-property:transform;
     vertical-align:left 25px;
-    transform: skewX(20deg);
     background: cover;
     list-style-type: none;
     list-style-position: outside none none;
@@ -36,26 +28,38 @@ html,body{
     text-align: left ;
     margin:30px auto;
     overflow:absolute;
+    width:20px;
 }
-#nav a{
+#nav li a{
     padding: 10px 10px;
     background-color: aqua;
     color:beige;
-    transform: skewX(-10deg);
+   
   }
 #nav a:hover{
     background-color:white ;
     color: black;
 }
-
+#all-nav{
+  box-sizing:border-box;
+}
+#whole #nav li a{
+  box-sizing:border-box;
+}
 #trapezeum{
 float:right;
 position:absolute;
-padding-left:60px;
-border-top: 550px solid red;
-  border-left: 120px solid transparent;
+padding-left:170px;
+border-top: 760px solid red;
+border-bottom: 62px solid red;
+box-sizing: content-box;
+
+  border-left: 140px solid transparent;
   height: 100px;
   opacity:.6;
-  width: 60px;
+  width: 62px;
    vertical-align:20px;
+}
+#straight{
+transform: skewX(0deg);
 }
