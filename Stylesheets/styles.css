@@ -2,6 +2,7 @@
 html,body{
     padding:0;
     margin: 0 auto;
+    
 }
 
  .vid source{
@@ -55,6 +56,6 @@ border-top: 550px solid red;
   border-left: 120px solid transparent;
   height: 100px;
   opacity:.6;
-  width: 200px;
+  width: 60px;
    vertical-align:20px;
 }
