@@ -3,7 +3,7 @@ html,body{
     padding:0;
     margin: 0 auto;
 box-sizing: content-box;
-  background-image:url("../background.jpg");
+  background-image:url("../images/background.jpg");
   background-size:100% ;
 overflow-y:absolute;
 }
