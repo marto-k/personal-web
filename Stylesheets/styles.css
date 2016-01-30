@@ -1,0 +1,68 @@
+/*Css file*/ 
+html,body{
+    padding:0;
+    margin: 0 auto;
+box-sizing: content-box;
+  background-image:url("../background.jpg");
+  background-size:100% ;
+overflow-y:absolute;
+}
+
+#nav nav a{
+  overflow:auto;
+    opacity: inherit;
+    text-decoration: none;
+    list-style-position: outside;
+}
+#nav li{
+    transform: skewX(11deg);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+
+#nav li{
+  transition-property:transform;
+    vertical-align:left 25px;
+    background: cover;
+    list-style-type: none;
+    list-style-position: outside none none;
+    list-style-type:none;
+    text-align: left ;
+    margin:30px auto;
+    overflow:absolute;
+    width:20px;
+}
+#nav li a{
+    padding: 10px 10px;
+    background-color: purple;
+    color:white;
+   
+  }
+#nav a:hover{
+    background-color:blue ;
+    color: white;
+}
+#all-nav{
+  box-sizing:border-box;
+}
+#whole #nav li a{
+  box-sizing:border-box;
+}
+#trapezeum{
+float:right; 
+
+position:absolute;
+padding-left:170px;
+border-top: 760px solid purple;
+border-bottom: 62px solid purple;
+box-sizing: content-box;
+
+  border-left: 140px solid transparent;
+  height: 100px;
+  opacity:.6;
+  width: 62px;
+   vertical-align:20px;
+}
+#straight{
+transform: skewX(0deg);
+}
