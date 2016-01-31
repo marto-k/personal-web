@@ -19,6 +19,7 @@ overflow-y:absolute;
 }
 .about{
    padding-left:230px;
+   margin:auto;
 }
 #nav nav a{
   overflow:auto;
