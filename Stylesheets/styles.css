@@ -18,8 +18,10 @@ overflow-y:absolute;
   padding-top:750px;
 }
 .about{
-   padding-left:230px;
    margin:auto;
+   width:146%;
+   background-image:url("../images/itm_2013-01-29_19-07-21_1.jpg");
+   background-size:100%;
 }
 #nav nav a{
   overflow:auto;
