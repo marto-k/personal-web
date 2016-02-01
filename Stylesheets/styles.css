@@ -7,21 +7,35 @@ html,body{
     padding:0;
     margin: 0 auto;
 box-sizing: content-box;
-  background-image:url("../images/background.jpg");
+  background-image:url("../background.jpg");
   background-size:100% ;
-  background-repeat:no-repeat;
 overflow-y:absolute;
 }
+
 #content{
   margin:auto;
   position:absolute;
   padding-top:750px;
+  overflow:responsive;
 }
 .about{
    margin:auto;
-   width:146%;
-   background-image:url("../images/itm_2013-01-29_19-07-21_1.jpg");
+   width:100%;
+   background-image:url("../images/facebook-cover-photo-grey.jpg");
    background-size:100%;
+   text-align:center;
+}
+.portfolio{
+  margin:auto;
+  background-image:url("../images/facebook-cover-photo-grey.jpg");
+  background-repeat:repeat;
+  height:auto;
+  text-align:center;
+}
+#contacts{
+  background-color:blue;
+  height:auto;
+  opacity:.6;
 }
 #nav nav a{
   overflow:auto;
@@ -57,7 +71,7 @@ overflow-y:absolute;
     background-color:blue ;
     color: white;
 }
-.all-nav{
+#all-nav{
   box-sizing:border-box;
 }
 #whole #nav li a{
