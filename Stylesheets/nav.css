@@ -4,20 +4,20 @@ html,body{
   padding:0;
 box-sizing: content-box;
 }
-#home{
+.home{
   padding-right:80px;
   text-align:left;
     
 }
-#about{
+.about{
   text-align:left;
   padding-right:30px;
 }
-#cars{
+.portfolio{
   padding-right:30px;
   text-align:left;
 }
-#contacts{
+.contacts{
 
   padding-left:10px;
   text-align:left;

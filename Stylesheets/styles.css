@@ -1,42 +1,27 @@
-/*Css file*/ 
+/***********************
+ *Css file
+ ***********************/ 
 body{
-  width:100%;
-  height:100%;
+  margin:auto;
+  padding:0;
+  background-image:url("../images/background.jpg");
+  background-repeat:no-repeat;
 }
 html,body{
     padding:0;
     margin: 0 auto;
 box-sizing: content-box;
-  background-image:url("../background.jpg");
   background-size:100% ;
 overflow-y:absolute;
 }
 
-#content{
-  margin:auto;
-  position:absolute;
-  padding-top:750px;
-  overflow:responsive;
-}
-.about{
-   margin:auto;
-   width:100%;
-   background-image:url("../images/facebook-cover-photo-grey.jpg");
-   background-size:100%;
-   text-align:center;
-}
-.portfolio{
-  margin:auto;
-  background-image:url("../images/facebook-cover-photo-grey.jpg");
-  background-repeat:repeat;
-  height:auto;
-  text-align:center;
-}
-#contacts{
-  background-color:blue;
-  height:auto;
-  opacity:.6;
-}
+
+
+
+
+/************************************************
+ *NAVIGATION SECTION
+ * **********************************************/
 #nav nav a{
   overflow:auto;
     opacity: inherit;
@@ -77,26 +62,63 @@ overflow-y:absolute;
 #whole #nav li a{
   box-sizing:border-box;
 }
-#trapezoid {
-position:absolute;
-opacity:0.6;
-padding-left:140px;
-padding-top:59px;
+.trapezoid {
 border-bottom: 100px solid purple;
 border-right: 18px solid transparent;
-height: 0;
-width: 350px; 
+position:absolute;
+opacity:0.6;
+width: 556px;
+height:0;
 }
-.trapezeum{
+#trapezeum{
 float:right; 
+
 position:absolute;
 padding-left:170px;
 border-top: 760px solid purple;
 box-sizing: content-box;
+
   border-left: 140px solid transparent;
   opacity:.6;
-  width: 40px;
+  width: 62px;
+   vertical-align:20px;
 }
 #straight{
 transform: skewX(0deg);
+}
+
+
+
+
+
+
+/************************************************
+ *BODY CONTENT
+ * **********************************************/
+#content{
+  padding-top:740px;
+}
+#about{
+   background-image:url("../images/facebook-cover-photo-grey.jpg");
+}
+
+
+
+/************************************************
+ *PORTFOLIO SECTION
+ * **********************************************/
+#portfolio{
+  text-align:center;
+  height:auto;
+  background-image:url("../images/facebook-cover-photo-grey.jpg");
+}
+
+
+
+
+/************************************************
+ *CONTACTS SECTION
+ * **********************************************/
+#contacts{
+  
 }
