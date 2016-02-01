@@ -120,5 +120,7 @@ transform: skewX(0deg);
  *CONTACTS SECTION
  * **********************************************/
 #contacts{
-   
+   background-image:url("../images/at-the-beach-hd-wallpaper-1920x1200.jpg");
+   background:cover;
+   background-repeat:no-repeat;
 }
